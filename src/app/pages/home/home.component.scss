@@ -1,0 +1,14 @@
+.banner{
+    width: 100%;
+    height: 700px;
+    background-image: url(../../../assets/images/banner.jpg);
+    background-size: cover;
+}
+
+
+.product-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1.5rem;
+    margin: 20px 0;
+}
